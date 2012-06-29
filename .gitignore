@@ -1,1 +1,9 @@
-*.pyc
+*.pyc.eunit
+deps
+priv
+*.o
+*.beam
+*.plt
+.eunit
+deps/
+ebin/

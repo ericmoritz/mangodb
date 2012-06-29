@@ -1,0 +1,17 @@
+% -*- erlang -*-
+
+{application, mangodb,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { mangodb_app, []}},
+  {env, [
+    {durable, false},
+    {eventual, false}
+  ]}
+ ]}.
