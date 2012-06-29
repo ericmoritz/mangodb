@@ -25,5 +25,5 @@ start_link() ->
 
 init([]) ->
     % use really big numbers to get those nine neins
-    {ok, { {one_for_one, 1, 100}, [ ]} }.
+    {ok, { {one_for_one, 1000000, 1}, [ ]} }.
 
