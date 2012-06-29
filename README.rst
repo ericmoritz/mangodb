@@ -10,13 +10,13 @@ data without ANY EFFORT with a new and improved AUTO SHARTING ALGORITHM.
 Getting Started
 ---------------
 
-Install ``gevent``::
+Build:
 
-    easy_install -U gevent
+    make
 
 Run the server::
 
-    python server.py
+  ./bin/mangodb
 
 With your MongoDB client, connect to ``localhost`` on port ``27017``.
 

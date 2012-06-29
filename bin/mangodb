@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+HERE=`dirname $0`
+erl -pa "$HERE"/../deps/*/ebin "$HERE"/../ebin -s mangodb $@
